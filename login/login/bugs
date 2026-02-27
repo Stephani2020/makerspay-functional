@@ -1,1 +1,6 @@
+scenarios
+1) El sistema permite el ingreso con usaurio no registrado
+2) El sistema permite ingreso con credenciales incorrectas
+3) El sistema no muestra mensajes de error 
+4) El usuario ingresa credenciales de manera exitosa pero no se direcciona al home, lo mantiene en la vista de inicio de sesion 
 
