@@ -1,1 +1,29 @@
+scenarios
+
+1) Visualización correcta del saldo
+El usuario autenticado puede ver su saldo actual correctamente.
+1. Iniciar sesión.
+2. Navegar al panel principal.
+3. Ingresar a la opcion de consultar El saldo mostrado y coincide con el saldo almacenado en base de datos.
+
+2) Actualización del saldo al realizar un envio de saldo
+El saldo se actualiza correctamente después de enviar o recibir dinero.
+Pasos:
+1. Enviar $50.000 a otro usuario.
+2. Regresar a la opcion de consultar El saldo
+3. El saldo mostrado es $50.000.
+
+3) Error en la carga del saldo
+El sistema presenta un error al consultar el saldo, usuario con saldo $0.
+Pasos:
+1. Iniciar sesión.
+2. Visualizar saldo.
+3. El sistema muestra valor $0.
+4. Se muestra mensaje de error al generar la consulta 
+
+4) Actualización del saldo al recibir un envio
+1. Iniciar sesión.
+2. Visualizar saldo.
+3. El sistema muestra el valor recibido 
+
 
