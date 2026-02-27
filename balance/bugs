@@ -1,1 +1,5 @@
+scenarios
 
+1. El saldo mostrado no coincide con el saldo real en base de datos
+2. No se descuenta el saldo al realizar una transferencia 
+3. No se actualiza el saldo al recibir una transferencia 
