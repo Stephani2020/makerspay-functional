@@ -1,1 +1,54 @@
+scenarios
+1) Transferencia exitosa
+Usuario envía un monto válido, dentro del rango permitido y con saldo suficiente.
+Pasos:
+ 1. Ingresar número válido
+ 2. Ingresar monto
+ 3. dar clic en enviar.
+ 4. Se muestra mensaje de éxito
+ 5. Se descuenta el valor del remitente.
+ 6. Se incrementa el valor del destinatario.
+ 7. Se registra el movimiento en el historial 
+
+2) Monto menor al mínimo $500
+ 1. Ingresar número válido
+ 2. Ingresar monto
+ 3. dar clic en enviar.
+ 4. Se muestra mensaje de error confirmado que el valor no es permitido 
+ 5.  No se descuenta saldo.
+
+3) Monto mayor al máximo $2.500.00
+  1. Ingresar número válido
+  2. Ingresar monto
+  3. dar clic en enviar.
+  4. Se muestra mensaje de error confirmado que el valor no es permitido
+  5. No se descuenta saldo.
+
+4) Saldo insuficiente Saldo mayor al actual 
+  1. Ingresar número válido
+  2. Ingresar monto mayor al actual 
+  3. dar clic en enviar.
+  4. Se visualiza Mensaje de error  "Saldo insuficiente".
+  5. No se descuenta saldo actual
+
+6) Envío a mismo número
+  1. Ingresar número válido
+  2. Ingresar monto mayor al actual 
+  3. dar clic en enviar.
+  4.  Se visualiza Mensaje de error  "No se puedes enviar dinero al  mismo numero".
+  5. No se descuenta saldo actual
+
+7)  Número no registrado
+  1. Ingresar número no valido
+  2. Ingresar monto 
+  3. dar clic en enviar 
+  4. Se visualiza Mensaje de error  "El número de destino no está registrado".
+  5. No se descuenta saldo actual
+
+8) Falla técnica durante la transacción
+  1. Ingresar número  valido
+  2. Ingresar monto
+  3. dar clic en enviar
+  4. Se visualiza Mensaje de error  "Falla en el sistema".
+  5. No se descuenta saldo actual
 
