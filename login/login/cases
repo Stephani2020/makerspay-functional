@@ -1,1 +1,40 @@
+scenarios
+1) Inicio de sesión exitoso
+El usuario ingresa credenciales válidas y accede correctamente.
+Pasos:
+1. Ingresar a la página de inicio.
+2. Ingresar usuario registrado.
+3. Ingresar contraseña valida.
+4. Hacer clic en "Iniciar sesión"
+5. El usuario es redirigido al panel principal.
+
+2) Inicio de sesión con usuario no registrado
+El usuario ingresa credenciales incorrectas
+Pasos:
+1. Ingresar a la página de inicio.
+2. Ingresar usuario no registrado.
+3. Ingresar contraseña no valida.
+4. Hacer clic en "Iniciar sesión"
+5. El usuario es redirigido al panel principal.
+6. Se muestra mensaje de error indicando usuario no registrado
+7. No se inicia sesión.
+
+3) Contraseña incorrecta
+Pasos:  
+1. Ingresar a la página de inicio.
+2. Ingresar usuario válido.
+3. Ingresar contraseña incorrecta.
+4. Hacer clic en "Iniciar sesión".
+5. Se muestra mensaje de error indicando credenciales incorrectas.
+6. No se inicia sesión.
+
+4) Campos vacíos
+El usuario intenta iniciar sesión sin ingresar usuario o contraseña.
+Pasos:
+1. Ingresar a la página de inicio.
+2. Validar que el campo de usuario este vacio.
+3. Validar que el campo de contraseña este vacio.
+4. Dar clic en iniciar sesión.
+5. Se muestra mensaje de faltan campos por diligenciar, resaltando los campos que faltan por llenar.
+
 
