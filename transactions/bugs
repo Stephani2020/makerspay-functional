@@ -1,1 +1,8 @@
-
+Bugs
+1. Permite enviar monto menor al saldo actual.
+2. No se actualiza saldo del destinatario tras la transferencia exitosa.
+3. No se actualiza saldo del remitente tras la transferencia exitosa.
+4. Permite el envio de valor al mismo numero
+5. Se presenta falla tecnica pero se descuenta el valor del saldo sin llegar al remitente
+6. Permite el envio a numeros no validos
+7. Permite enviar monto mayor al saldo actual.
